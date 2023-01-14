@@ -21,8 +21,8 @@ We are going to connect our terminal to a computer in the CSE basement.
 * Type in *ssh cs15lwi23zz@ieng6.ucsd.edu* but with the "zz" replaced with the letters of your course specific account 
 * If you get the message below, type yes in the terminal followed with your account password. 
 
-<img src = "images/yes_no.png" width = "200" > 
+<img src = "images/yes_no.png" width = "500" > 
 
 * Great! Now you're in. Your terminal should look something like this: 
 
-<img src = "images/successful_login.png" width = "200"> 
+<img src = "images/successful_login.png" width = "500"> 
