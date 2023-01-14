@@ -21,9 +21,9 @@ We are going to connect our terminal to a computer in the CSE basement.
 * Type in *ssh cs15lwi23zz@ieng6.ucsd.edu* but with the "zz" replaced with the letters of your course specific account 
 * If you get the message below, type yes in the terminal followed with your account password. 
 
-⤇ ssh cs15lwi23zz@ieng6.ucsd.edu
+**⤇ ssh cs15lwi23zz@ieng6.ucsd.edu
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
-Are you sure you want to continue connecting (yes/no/[fingerprint])? 
+Are you sure you want to continue connecting (yes/no/[fingerprint])?**
 
 * 
