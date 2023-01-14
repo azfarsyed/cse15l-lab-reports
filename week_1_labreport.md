@@ -8,4 +8,4 @@ Let's get started on how to log into your course-specific account on **ieng6**
 * Follow the instructions on the page - download the correct OS file depending on your device OS
 * When installed and opened, the page should look something like this: 
 
-<img src = "images/vscode.png" width = "800">
+<img src = "images/vscode.png" width = "700">
