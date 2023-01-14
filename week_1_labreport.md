@@ -42,4 +42,4 @@ To test, run some commands and implement them in different ways. Here are a list
 
 If you're bored of testing commands and want to log off, simply press *Ctrl-D* or run the command *exit* in the terminal. 
 
-**Congratulations! You now know how to log into your course specific account on *ieng6*! **
+**Congratulations! You now know how to log into your course specific account on *ieng6*!**
