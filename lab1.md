@@ -18,7 +18,7 @@ We are going to connect our terminal to a computer in the CSE basement.
 * Once installed, we must set our default terminal to use the git bash in VSCode. Here is a thread on how to do this: 
 [gitbash-setup](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994) 
 * Now, to use the ssh command, open the terminal in VSCode by pressing "Cntrl/Cmd" & "`"
-* Type in *ssh cs15lwi23zz@ieng6.ucsd.edu* but with the "zz" replaced with the letters of your course specific account 
+* Type in `ssh cs15lwi23zz@ieng6.ucsd.edu` but with the `zz` replaced with the letters of your course specific account 
 * If you get the message below, type yes in the terminal followed with your account password. 
 
 <img src = "images/yes_no.png" width = "500" > 
