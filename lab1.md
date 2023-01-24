@@ -40,11 +40,11 @@ To test, run some commands and implement them in different ways. Here are a list
 
 Here is the ls -lat command. It sdljfsdjfk
 
-<img src = "images/lslatcommand.png" width = "300"> 
+<img src = "images/lslatcommand.png" width = "500"> 
 
 Here is the ls -a command. It 
 
-<img src = "images/lsacommand.png" width = "300"> 
+<img src = "images/lsacommand.png" width = "500"> 
 
 ## Logging Off
 
