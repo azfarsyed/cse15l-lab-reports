@@ -45,7 +45,7 @@ Here is the `cd wavelet command`. It changes the directory to wavelet
 
 Here is the `pwd` command. It prints the current directory you are in 
 
-<img src = "images/lslatcommand.png" width = "500"> 
+<img src = "images/pwdcommand.png" width = "500"> 
 
 ## Logging Off
 
