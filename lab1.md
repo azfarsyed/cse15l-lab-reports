@@ -38,6 +38,14 @@ To test, run some commands and implement them in different ways. Here are a list
 * `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/`
 * `cat /home/linux/ieng6/cs15lwi23/public/hello.txt`
 
+Here is the ls -lat command. It sdljfsdjfk
+
+<img src = "images/lslatcommand.png" width = "300"> 
+
+Here is the ls -a command. It 
+
+<img src = "images/lsacommand.png" width = "300"> 
+
 ## Logging Off
 
 If you're bored of testing commands and want to log off, simply press `Ctrl-D` or run the command `exit` in the terminal. 
