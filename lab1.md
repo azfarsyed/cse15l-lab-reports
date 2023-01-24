@@ -39,7 +39,7 @@ To test, run some commands and implement them in different ways. Here are a list
 * `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/`
 * `cat /home/linux/ieng6/cs15lwi23/public/hello.txt`
 
-Here is the cd wavelet command. It changes the directory to wavelet
+Here is the `cd wavelet command`. It changes the directory to wavelet
 
 <img src = "images/cdwavelet.png" width = "500"> 
 
