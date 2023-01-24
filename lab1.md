@@ -35,16 +35,17 @@ To test, run some commands and implement them in different ways. Here are a list
 * `cd`
 * `ls -lat`
 * `ls -a`
+* `pwd`
 * `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/`
 * `cat /home/linux/ieng6/cs15lwi23/public/hello.txt`
-
-Here is the ls -lat command. It lists the files and folders of everything in "lat" path 
-
-<img src = "images/lslatcommand.png" width = "500"> 
 
 Here is the cd wavelet command. It changes the directory to wavelet
 
 <img src = "images/cdwavelet.png" width = "500"> 
+
+Here is the `pwd` command. It prints the current directory you are in 
+
+<img src = "images/lslatcommand.png" width = "500"> 
 
 ## Logging Off
 
