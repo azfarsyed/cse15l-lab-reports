@@ -44,7 +44,7 @@ Here is the ls -lat command. It lists the files and folders of everything in "la
 
 Here is the cd wavelet command. It changes the directory to wavelet
 
-<img src = "images/lsacommand.png" width = "500"> 
+<img src = "images/cdwavelet.png" width = "500"> 
 
 ## Logging Off
 
