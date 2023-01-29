@@ -18,22 +18,31 @@ This argument returns the message `Hello` on the page. The part of the code segm
 
 ## Part 2
 
-Here is a failure inducing input for the `reversed` function 
+Here is a failure inducing input for the `reversed` function: 
 ```
 int[] input = {1, 2, 3, 4};
 assertArrayEquals(new int[]{4, 3, 2, 1}, ArrayExamples.reversed(input));
 ```
-The symptoms are here as followed: 
+The symptom for this input is here as followed: 
 
 <img src = "images/reverseTest.png" width = "400"> 
 
-We changed the code so that it may work: 
+Here is a non-failure induced input for the `reversed` function. This code segment works since an unupdated array will just be an array of 0s : 
+
+```
+@Test
+public void testReversed() {
+  int[] input1 = {0,0,0,0};
+  assertArrayEquals(new int[]{0,0,0,0}, ArrayExamples.reversed(input1));
+}
+```
+The original code did not update the new array or return it. We changed the code so that it may work: 
 ```
 static int[] reversed(int[] arr) { 
   int[] newArray = new int[arr.length]; 
   for(int i =0; i < arr.length; i++) { 
     newArray[arr.length - i - 1] = arr[i]; 
   }
-  return arr; 
+  return newArray; 
 }
 ```
