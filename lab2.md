@@ -39,6 +39,8 @@ public void testReversed() {
   assertArrayEquals(new int[]{0,0,0,0}, ArrayExamples.reversed(input1));
 }
 ```
+### Issue with the code
+
 The original code did not update the new array or return it. We changed the code so that it may work. 
 
 Here is the original code: 
