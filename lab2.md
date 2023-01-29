@@ -19,6 +19,7 @@ This argument returns the message `Hello` on the page. The part of the code segm
 ## Part 2
 
 Here is a failure inducing input for the `reversed` function 
-`
+```
 int[] input = {1, 2, 3, 4};
-assertArrayEquals(new int[]{4, 3, 2, 1}, ArrayExamples.reversed(input));`
+assertArrayEquals(new int[]{4, 3, 2, 1}, ArrayExamples.reversed(input));
+```
