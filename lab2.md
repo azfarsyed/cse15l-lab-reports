@@ -12,7 +12,7 @@ Here is a screenshot of the argument `/add-message?s=Hello` being passed
 
 <img src = "images/Hello.png" width = "700">
 
-This argument returns the message `Hello` on the page. 
+This argument returns the message `Hello` on the page. The part of the code segment that runs is shown below: 
 
 <img src = "images/argument.png" width = "400">
 
