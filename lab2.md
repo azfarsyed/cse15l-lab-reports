@@ -23,7 +23,9 @@ Here is a failure inducing input for the `reversed` function
 int[] input = {1, 2, 3, 4};
 assertArrayEquals(new int[]{4, 3, 2, 1}, ArrayExamples.reversed(input));
 ```
+The symptoms are here as followed: 
 
+<img src = "images/reverseTest.png" width = "400"> 
 
 We changed the code so that it may work: 
 ```
