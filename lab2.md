@@ -4,13 +4,13 @@
 
 Here is a no argument screenshot: 
 
-<img src = "images/404NotFound.png" width = "700">
+<img src = "images/404NotFound.png" width = "600">
 
 Only the `return "404 Not Found!";` segment runs as there is no argument passed in the query.
 
 Here is a screenshot of the argument `/add-message?s=Hello` being passed 
 
-<img src = "images/Hello.png" width = "700">
+<img src = "images/Hello.png" width = "600">
 
 This argument returns the message `Hello` on the page. The part of the code segment that runs is shown below: 
 
