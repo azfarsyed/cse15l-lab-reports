@@ -20,8 +20,11 @@ This argument returns the message `Hello` on the page. The part of the code segm
 
 Here is a failure inducing input for the `reversed` function: 
 ```
-int[] input = {1, 2, 3, 4};
-assertArrayEquals(new int[]{4, 3, 2, 1}, ArrayExamples.reversed(input));
+@Test
+public void testReversed() {
+  int[] input = {1, 2, 3, 4};
+  assertArrayEquals(new int[]{4, 3, 2, 1}, ArrayExamples.reversed(input));
+}
 ```
 The symptom for this input is here as followed: 
 
