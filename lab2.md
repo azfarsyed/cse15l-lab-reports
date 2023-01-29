@@ -12,10 +12,8 @@ Here is a screenshot of the argument `/add-message?s=Hello` being passed
 
 <img src = "images/Hello.png" width = "700">
 
-`if (url.getPath().equals("/add-message")) {
-  String[] parameters = url.getQuery().split("=");
-  if (parameters[0].equals("s")) {
-    message +=  parameters[1] + "\n";
-    return message;
-    }
-} `
+This argument returns the message `Hello` on the page. 
+
+<img src = "images/argument.png" width = "400">
+
+
