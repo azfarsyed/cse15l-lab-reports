@@ -63,3 +63,5 @@ static int[] reversed(int[] arr) {
   return newArray; 
 }
 ```
+## Part 3
+I learned about what the difference was between bugs and symptoms was. A sympton is a behavior that you see from a faulty piece of code. A bug is that faulty piece of code that causes a symptom. 
