@@ -23,3 +23,15 @@ Here is a failure inducing input for the `reversed` function
 int[] input = {1, 2, 3, 4};
 assertArrayEquals(new int[]{4, 3, 2, 1}, ArrayExamples.reversed(input));
 ```
+
+
+We changed the code so that it may work: 
+```
+static int[] reversed(int[] arr) { 
+  int[] newArray = new int[arr.length]; 
+  for(int i =0; i < arr.length; i++) { 
+    newArray[arr.length - i - 1] = arr[i]; 
+  }
+  return arr; 
+}
+```
