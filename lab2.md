@@ -25,7 +25,7 @@ The part of the code segment that runs is the method `public String handleReques
 * If so, it adds the second value(the string message you want to display) and a new line to a string object that we return 
 * If any of these conditionals return false, `404 Not Found` is returned. 
 
-<img src = "images/argument.png" width = "400">
+<img src = "images/urlMethod.png" width = "500">
 
 ## Part 2
 
@@ -56,7 +56,7 @@ Here is a screenshot of it passing the test:
 
 ### Issue with the code
 
-The original code did not update the new array or return it. We changed the code so that it may work. 
+The original code did not update the new array or return it. From the failure-inducing output, we can see that we expected the first value to be 4,but the actual value returned was 0. This made us realize that the method was only returning a new array of 0's because each original value of `int[] arr` was being replaced by the 0 values of `int[] newArray`. We tested this with the non-failure induced input of an array of just 0's and it passed, which confirmed our findings. We changed the code so that it may work. 
 
 Here is the original code: 
 ```
