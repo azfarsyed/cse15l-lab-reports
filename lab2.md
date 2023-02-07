@@ -16,7 +16,14 @@ This argument returns the message `Hello` on the page. Here is message `java` ad
 
 <img src = "images/javamsg.png" width = "600">
 
-The part of the code segment that runs is shown below: 
+The part of the code segment that runs is the method `public String handleRequest(URI url)`. 
+
+* The method first checks if the path contains the `/add-message` object. 
+* If it does detect it, it splits the path at the `=` char after the query `?` and stores them into a a new string array `parameters`. 
+* The two objects stored in the array are `s` and the string message you want to display on the website
+* Then the method checks if the first value of the `parameters` array equals the `s` char
+* If so, it adds the second value(the string message you want to display) and a new line to a string object that we return 
+* If any of these conditionals return false, `404 Not Found` is returned. 
 
 <img src = "images/argument.png" width = "400">
 
