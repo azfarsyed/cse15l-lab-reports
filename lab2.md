@@ -14,7 +14,7 @@ Here is a screenshot of the argument `/add-message?s=Hello` being passed
 
 This argument returns the message `Hello` on the page. Here is message `java` added to a new line. 
 
-<img src = "images/javamsg.png" width = "400">
+<img src = "images/javamsg.png" width = "600">
 
 The part of the code segment that runs is shown below: 
 
