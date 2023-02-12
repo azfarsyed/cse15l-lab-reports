@@ -31,7 +31,10 @@ Here is the amount of times "this" appears(case insensitive) `grep -i -c "this" 
 <img src = "images/grep_i_c_this.png" width = "600">
 
 Alternateively, I can figure out how many text files there are in a certain directory by saving all file names in a text file and then using this command to count the amount of files that contain the ".txt" string. 
-
+``` 
+find written_2 > find-results.txt
+grep -c “.txt” find-results.txt
+``` 
 <img src = "images/txtCount.png" width = "600">
 
 #### #3: `grep -r "(txt)"`
