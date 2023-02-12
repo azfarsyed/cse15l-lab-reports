@@ -6,5 +6,5 @@
 
 Here is an example of the case sensitive grep command. `grep -i 'this' Bahamas-Intro.txt`
 
-<img src = "images/like_grep_output.png" width = "600">
+<img src = "images/this_input.png" width = "600">
 
