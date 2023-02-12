@@ -4,10 +4,18 @@
 
 ##### `grep -i "(txt)" (filename)`
 
-Here is an example of the case sensitive grep command. `grep -i 'this' Bahamas-Intro.txt`
+Here is an example of the case insensitive grep command. `grep -i "this" Bahamas-Intro.txt`
 
 <img src = "images/this_input.png" width = "600">
 
 <img src = "images/this_output.png" width = "600">
 
-Under this command, only the lines with "this" (case sensitive) are printed out. In this case, the entirety of line 20 is printed out. The way I used this command, although it works isn't very useful to me because the sentences of this file aren't split by line. And since, other sentences that start with "This" are printed out as well because they are also on line 20. The grep -i is useful if you want to search for a text that is case sensitive in a file. If you would only like to retrieve the case sensitive word, make sure it is in its own line since this command prints out the entire line. 
+Under this command, all the lines with "this" (case insensitive) are printed out. In this case, the entirety of lines 6,7,17,19,20 are printed out. The way I used this command, although it works, isn't very useful to me because the sentences of this file aren't split by line. Individual sentences aren't being returned, rather the entire code line is. The grep -i is useful if you want to search for a text that is case insensitive in a file. If you would only like to retrieve the case sensitive word, make sure it is in its own line since this command prints out the entire line. 
+
+Here is another example of the case senstive grep command. `grep -i "ch4.txt" find-results.txt`
+
+<img src = "image/grepi_ch4.png" width = "600">
+
+<img src = "images/ch4.png" width = "600">
+
+In this case, both files `ch4.txt` and `CH4.txt` are printed out because grep-i is case insensitive. This is particularly useful when you want to find files or texts in which you do not care if there are caps. In this case, I wnated to return all files that had the name "ch4" no matter the case. 
