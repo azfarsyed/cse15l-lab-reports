@@ -57,7 +57,6 @@ Here is another example where I return everything that is not in the travel guid
 
 <img src = "images/grepv_travelguide.png" width = "600"> 
 
-
-
+For all of these commands, I used the site: https://www.cyberciti.biz/faq/howto-use-grep-command-in-linux-unix/
 
 
