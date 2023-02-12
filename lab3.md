@@ -36,6 +36,25 @@ Alternateively, I can figure out how many text files there are in a certain dire
 
 #### #3: `grep -r "(txt)"`
 
-This command looks through all the files in the current directory for the word you are looking for. Here is an example: `grep -r "Lucayans"`
+This command looks through all the files in the current directory for the word you are looking for and returns the line in which it is in. Here is an example: `grep -r "Lucayans"`
 
 <img src = "images/grepr.png" width = "600">
+
+Here is another example where I check where the text "El Abuelo" appears in the docsearch directory. 
+
+<img src = "images/grepr2.png" width = "600">
+
+#### #4: `grep -v "(txt)"`
+
+This command returns all the lines that do not contain the text specified. It is useful so that I can return the files I want to access. Here is an example: `grep -v non-fiction find-results.txt`. Here everything not in the non fiction directory is returned. 
+
+<img src = "images/grepv_nonfiction.png" width = "600"> 
+
+Here is another example where I return everything that is not in the travel guides directory. 
+
+<img src = "images/grepv_travelguide.png" width = "600"> 
+
+
+
+
+
