@@ -2,7 +2,7 @@
 
 ### *Alternate ways to use the command `grep`*
 
-##### `grep -i "(txt)" (filename)`
+####  #1: `grep -i "(txt)" (filename)`
 
 Here is an example of the case insensitive grep command. `grep -i "this" Bahamas-Intro.txt`
 
@@ -20,7 +20,7 @@ Here is another example of the case senstive grep command. `grep -i "ch4.txt" fi
 
 In this case, both files `ch4.txt` and `CH4.txt` are printed out because grep-i is case insensitive. This is particularly useful when you want to find files or texts in which you do not care if there are caps. In this case, I wanted to return all files that had the name "ch4" no matter the case. 
 
-##### `grep -c "(txt)" (filename)`
+####  #2:`grep -c "(txt)" (filename)`
 
 This command returns how many times a certain word appears in a file. It is useful because it can let me know how many times a word appears in a text file. Here is an example: `grep -c "this" Bahamas-Intro.txt`
 
