@@ -33,3 +33,9 @@ Here is the amount of times "this" appears(case insensitive)
 Alternateively, I can figure out how many text files there are in a certain directory by saving all file names in a text file and then using this command to count the amount of files that contain the ".txt" string.
 
 <img src = "images/txtCount.png" width = "600">
+
+#### #3: `grep -r "(txt)"`
+
+This command looks through all the files in the current directory for the word you are looking for. Here is an example: `grep -r "Lucayans"`
+
+<img src = "images/grepr.png" width = "600">
