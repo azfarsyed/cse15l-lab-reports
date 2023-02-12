@@ -26,11 +26,11 @@ This command returns how many times a certain word appears in a file. It is usef
 
 <img src = "images/grepc_this.png" width = "600">
 
-Here is the amount of times "this" appears(case insensitive)
+Here is the amount of times "this" appears(case insensitive) `grep -i -c "this" Bahamas-Intro.txt`
 
 <img src = "images/grep_i_c_this.png" width = "600">
 
-Alternateively, I can figure out how many text files there are in a certain directory by saving all file names in a text file and then using this command to count the amount of files that contain the ".txt" string.
+Alternateively, I can figure out how many text files there are in a certain directory by saving all file names in a text file and then using this command to count the amount of files that contain the ".txt" string. 
 
 <img src = "images/txtCount.png" width = "600">
 
@@ -40,7 +40,7 @@ This command looks through all the files in the current directory for the word y
 
 <img src = "images/grepr.png" width = "600">
 
-Here is another example where I check where the text "El Abuelo" appears in the docsearch directory. 
+Here is another example where I check where the text "El Abuelo" appears in the docsearch directory. `grep -r "El Abuelo"`
 
 <img src = "images/grepr2.png" width = "600">
 
@@ -50,7 +50,7 @@ This command returns all the lines that do not contain the text specified. It is
 
 <img src = "images/grepv_nonfiction.png" width = "600"> 
 
-Here is another example where I return everything that is not in the travel guides directory. 
+Here is another example where I return everything that is not in the travel guides directory. `grep -v travel_guides find-results.txt`
 
 <img src = "images/grepv_travelguide.png" width = "600"> 
 
