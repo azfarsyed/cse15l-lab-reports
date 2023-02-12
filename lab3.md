@@ -14,8 +14,8 @@ Under this command, all the lines with "this" (case insensitive) are printed out
 
 Here is another example of the case senstive grep command. `grep -i "ch4.txt" find-results.txt`
 
-<img src = "image/grepi_ch4.png" width = "600">
+<img src = "images/grepi_ch4.png" width = "600">
 
-<img src = "images/ch4.png" width = "600">
+<img src = "images/ch4.png" width = "300">
 
 In this case, both files `ch4.txt` and `CH4.txt` are printed out because grep-i is case insensitive. This is particularly useful when you want to find files or texts in which you do not care if there are caps. In this case, I wnated to return all files that had the name "ch4" no matter the case. 
