@@ -33,10 +33,8 @@
 - type `nano L<tab>.j<tab>` to access the file `ListExamples`
 - To get the error on line 42:
   - I scrolled all the way down using the trackpad 
-  - Then pressed <up><up><up><up><up><up><up>
-  - Then pressed <left><left><left><left><left><left>
-  - Then `<delete>`
-  - Then pressed two
+  - Then pressed <up><up><up><up><up><up><up> 
+  - Then change "index1" to "index2" 
 <img src = "images/updateListExamples.png" width = "350">
 
 To exit and save, press `^O` then `^X`
