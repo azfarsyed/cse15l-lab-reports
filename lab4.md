@@ -33,15 +33,16 @@
 - type `nano L<tab>.j<tab>` to access the file `ListExamples`
 - To get the error on line 42:
   - I scrolled all the way down using the trackpad 
-  - Then pressed "up" 7 times 
+  - Then pressed <up><up><up><up><up><up><up>
   - Then change "index1" to "index2" 
+  
 <img src = "images/updateListExamples.png" width = "350">
 
 To exit and save, press `^O` then `^X`
   
 ### 6) Show that the tests work 
-- to compile the tester again I pressed "up" 4 times
-- to run the tester I pressed "up" 4 times again 
+- to compile the tester again I pressed <up><up><up><up>
+- to run the tester I pressed <up><up><up><up>
 
 <img src = "images/runTests.png" width = "350">
 
