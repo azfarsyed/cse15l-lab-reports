@@ -35,7 +35,7 @@
   - I scrolled all the way down using the trackpad 
   - Then pressed <up><up><up><up><up><up><up>
   - Then pressed <left><left><left><left><left><left>
-  - Then <delete>
+  - Then "<delete>"
   - Then pressed two
 <img src = "images/updateListExamples.png" width = "350">
 
