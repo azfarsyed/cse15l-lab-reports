@@ -25,7 +25,7 @@
   - `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTest`
  
 
-<img src = "images/jnuitTests.png" width = "350">
+<img src = "images/jnuitTests.png" width = "450">
 <img src = "images/testFailures.png" width = "350">
 
 ### 5) Edit The code file to fix the failing text
