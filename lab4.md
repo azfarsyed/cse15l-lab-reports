@@ -15,5 +15,14 @@
 
 - type `git clone` + the link that you copied
 
-<img src = "images/gitCloneSSH.png" width = "350>
+<img src = "images/gitCloneSSH.png" width = "350">
+
+### 4) Run the tests for `ListExamplesTest` and demonstrate that they fail 
+
+- Run the test commands:
+- `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` 
+  - dljsfoid 
+                                             
+                                             
+                                             
                                              
